@@ -3,6 +3,18 @@
         min-width: 100%;
         padding-left: 0;
         padding-right: 0;
-    }      
+    } 
+
+    .btn-paragraph {
+        color: black;
+        background-color: #34FA98;
+        border: none;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .paragraph {
+        font-weight: bold;
+    }
   
   }
