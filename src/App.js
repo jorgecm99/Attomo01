@@ -1,9 +1,17 @@
+import Header from './Componentes/Core/Header';
+import Landing from './Componentes/Landing/Landing';
+import Footer from './Componentes/Core/Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Router>
+      <Header />
+      <Landing />
+      <Footer />
+    </Router>
+    
   );
 }
 

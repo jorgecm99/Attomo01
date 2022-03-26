@@ -1,0 +1,55 @@
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-first {
+    padding-left: 0px;
+    margin: 10px;
+}
+.footer-stars {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer-second {
+    margin: 25px;
+}
+.footer-three {
+    margin: 25px;
+}
+.footer li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #34FA98;
+}
+h5 {
+    font-weight: normal;
+    padding: 25px;
+}
+.iconlist {
+    display: flex;
+    color: #34FA98;
+}
+.img-payment {
+    width: 200px;
+}
+img {
+    width: 100px;
+}
+
+.parr-one {
+    margin-top: -8px;
+    padding-bottom: 25px;
+}
