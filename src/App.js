@@ -5,7 +5,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { useState, useEffect} from 'react';
 import './App.css';
 import Popup from './Componentes/Popup/Popup';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   const [popup, setPopup] = useState(false);

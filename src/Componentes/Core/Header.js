@@ -1,19 +1,14 @@
-import React, { useState} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faBars} from '@fortawesome/free-solid-svg-icons';
-import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'reactstrap';
 
 var logoStadium = require('../../Assets/Images/image1.png')
 
 function Header () {
-    const [dropdown, setDropdown] = useState(false);
-
-    const abrirCerrarDropdown = () => {
-        setDropdown(!dropdown);
-    }
+    
 
 
   return (
@@ -21,21 +16,6 @@ function Header () {
     <div className="menu">
     <Link to="/cart"><FontAwesomeIcon icon={faBars} style={{color: "white"}}/></Link>  
     </div>
-
-    <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown}>
-        <DropdownToggle caret></DropdownToggle>
-
-        <DropdownMenu>
-            <DropdownItem>Entradas de partidos</DropdownItem>
-            <DropdownItem>Tours originales</DropdownItem>
-            <DropdownItem>Experiencias día de partido</DropdownItem>
-            <DropdownItem>Salta al campo</DropdownItem>
-            <DropdownItem>Experiencias virtuales</DropdownItem>
-            <DropdownItem>Sportbox</DropdownItem>
-            <DropdownItem>Iniciar sesión</DropdownItem>
-        </DropdownMenu>
-
-    </Dropdown>
     
 
     <div className='image-container'>
