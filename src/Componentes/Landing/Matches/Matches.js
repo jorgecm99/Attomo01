@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import './Matches.css';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 var logoBstadium = require('../../../Assets/Icons/bstadium.png');
 var versus = require('../../../Assets/Images/Group70.png');
@@ -83,7 +85,15 @@ function Matches() {
               <div>
                  <h3>¡No te lo pierdas!</h3>
                  <p>Sólo quedan 14 entradas con regalo:</p>
-                 <p className='paragraph'>Bebida <span></span>o Bufanda<span></span></p>
+                 <div className='paragraph'>Bebida 
+                 <div className='circulo'>
+                   <img className='icon-one' src={bebida} alt=''></img>
+                 </div>
+                 o Bufanda
+                 <div className='circulo'>
+                   <img className='icon-two' src={bufanda} alt=''></img>
+                 </div>
+                 </div>
           </div>
           </div>
 
@@ -1799,13 +1809,13 @@ function Matches() {
         
 
            <div className='buttons'>
-               <button onClick={prev}>Prev</button>
-               <button onClick={pageOne}>1</button>
-               <button onClick={pageTwo}>2</button>
-               <button onClick={pageThree}>3</button>
-               <button onClick={pageFour}>4</button>
-               <button onClick={pageFive}>5</button>
-               <button onClick={next}>Next</button>
+               <button className='btn-style' onClick={prev}><FontAwesomeIcon icon={faAngleLeft} style={{color: "#838383"}}/></button>
+               <button className='btn-style' onClick={pageOne}>1</button>
+               <button className='btn-style' onClick={pageTwo}>2</button>
+               <button className='btn-style' onClick={pageThree}>3</button>
+               <button className='btn-style' onClick={pageFour}>4</button>
+               <button className='btn-style' onClick={pageFive}>5</button>
+               <button className='btn-style' onClick={next}><FontAwesomeIcon icon={faAngleRight} style={{color: "#838383"}}/></button>
            </div>
           
         </div>  

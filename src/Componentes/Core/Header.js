@@ -4,7 +4,6 @@ import './Header.css';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faBars} from '@fortawesome/free-solid-svg-icons';
-
 var logoStadium = require('../../Assets/Images/image1.png')
 
 function Header () {
@@ -23,8 +22,6 @@ function Header () {
         <img src={logoStadium} alt=''></img>
         </Link>    
     </div>
-
-    
 
     <nav>
     <ul className='toggle-menu'>
