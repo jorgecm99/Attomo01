@@ -13,9 +13,12 @@ var seats = require('../../Assets/Icons/Group69.png');
 const Landing = () => {
   return (
     <section>
-       <div>
+       <div className='imagen-principal'>
          <img className='section-pic' src={sectionPic} alt=''></img>
-         <img className='logo-pic' src={logoBstadium} alt=''></img>
+         <div className='logo-pic-section'>
+          <img className='logo-pic' src={logoBstadium} alt=''></img>
+         </div>
+         
        </div> 
 
        <div>
