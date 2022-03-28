@@ -31,7 +31,7 @@ function Header () {
 
     <div className='image-container'>
         <Link to="#" style={{textDecoration: "none"}}>
-        <img src={logoStadium} alt=''></img>
+        <img className='image-logo' src={logoStadium} alt=''></img>
         </Link>    
     </div>
 

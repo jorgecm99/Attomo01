@@ -12,7 +12,7 @@
 }
 .footer-stars {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-left: 80px;
     margin-right: 80px;
@@ -41,6 +41,7 @@ h5 {
 .iconlist {
     display: flex;
     color: #34FA98;
+    margin-left: 10px;
 }
 .img-payment {
     width: 200px;
