@@ -12,8 +12,17 @@ function Header () {
 
   return (
     <header className='headerstyle'>
-    <div className="menu">
-    <Link to="/cart"><FontAwesomeIcon icon={faBars} style={{color: "white"}}/></Link>  
+    <div className="dropdown"><FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
+      <div className='dropdown-content'>
+        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Entradas de partidos</Link></li>
+        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Tours originales</Link></li>
+        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Experiencias día de partido</Link></li>
+        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Salta al campo</Link></li>
+        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Experiencias virtuales</Link></li>
+        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Sportbox</Link></li>
+        <li><Link to="#" style={{textDecoration: "none", background: "grey"}}>Iniciar sesión</Link></li>
+      </div>
+    
     </div>
     
 
