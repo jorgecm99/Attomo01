@@ -28,30 +28,20 @@ function Header () {
     
     </div>
     
-
+    <div className='container-desktop'>
     <div className='image-container'>
         <Link to="#" style={{textDecoration: "none"}}>
         <img className='image-logo' src={logoStadium} alt=''></img>
         </Link>    
     </div>
-
-    <nav>
-    <ul className='toggle-menu'>
-        <li><Link to="#" style={{textDecoration: "none"}}>Entradas de partidos</Link></li>
-        <li><Link to="#" style={{textDecoration: "none"}}>Tours originales</Link></li>
-        <li><Link to="#" style={{textDecoration: "none"}}>Experiencias día de partido</Link></li>
-        <li><Link to="#" style={{textDecoration: "none"}}>Salta al campo</Link></li>
-        <li><Link to="#" style={{textDecoration: "none"}}>Experiencias virtuales</Link></li>
-        <li><Link to="#" style={{textDecoration: "none"}}>Sportbox</Link></li>
-        <li><Link to="#" style={{textDecoration: "none"}}>Iniciar sesión</Link></li>
-        
-    </ul>
-
     
         <div className='cart-style'>
             <Link to="/cart"><FontAwesomeIcon icon={faShoppingCart} style={{color: "white"}}/></Link>               
         </div>
-    </nav>        
+
+    </div>
+    
+       
 </header>
   )
 }

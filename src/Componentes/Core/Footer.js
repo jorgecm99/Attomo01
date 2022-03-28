@@ -6,6 +6,7 @@ import { faStar} from '@fortawesome/free-solid-svg-icons';
 
 var payments = require('../../Assets/Images/payments.png')
 var socialMedia = require('../../Assets/Images/socialmedia.png')
+var wasap = require('../../Assets/Images/wasap.png')
 
 const Footer = () => {
   return (
@@ -53,6 +54,9 @@ const Footer = () => {
         
 
         <h5>© BSTADIUM</h5>
+        
+        <img  className='wasap-logo' src={wasap} alt=''></img>
+        
 
     </div>
     

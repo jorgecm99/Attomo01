@@ -4,9 +4,11 @@
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+    position: relative;
+    width: 100%;
 }
 .footer-header {
-        margin: -45px;  
+        margin: -45px; 
         height: 40px;
         background-color: #34FA98;
         -webkit-transform: rotate(-3deg);
@@ -16,7 +18,7 @@
 }
 .footer-first {
     padding-left: 0px;
-    margin-top: 75px;
+    margin-top: 65px;
     margin: 10px;
 }
 .footer-stars {
@@ -66,4 +68,9 @@ img {
 }
 .text-green {
     color: #34FA98;
+}
+.wasap-logo {
+    width: 60px;
+    position: absolute;
+    left: 50px;
 }

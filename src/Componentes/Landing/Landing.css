@@ -97,3 +97,20 @@
 
 
 }
+
+/*DESKTOP*/
+@media screen and (min-width: 860px) {
+    .imagen-principal, .section-pic{
+        display: none;
+    }
+    .imagen-principal-desktop {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .section-pic-desktop {
+        width: 100%;
+        
+    }
+}

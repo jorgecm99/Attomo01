@@ -4,6 +4,7 @@ import Matches from './Matches/Matches';
 
 var sectionPic = require('../../Assets/Images/section.png');
 var logoBstadium = require('../../Assets/Icons/bstadium.png');
+var sectionGrande = require('../../Assets/Images/grande.png');
 var tickets = require('../../Assets/Icons/tickets.png');
 var coins = require('../../Assets/Icons/coins.png');
 var seats = require('../../Assets/Icons/Group69.png');
@@ -38,6 +39,37 @@ const Landing = () => {
          </div>
             
        </div> 
+
+
+
+
+       <div className='imagen-principal-desktop'>
+         <div>
+         <div className='text-one'>
+           <p className='text-mayus white'>entradas de partidos</p>
+         </div>
+
+         <div className='text-two'>
+            <p className='text-mayus-two white'>bufanda <span className='gratis'>gratis</span> con tu entrada</p>
+            <div className='oferta'>
+              <img className='bufblanca' src={bufblanca} alt=''></img>
+              <p className='white'>Oferta disponible sólo hoy</p>
+            </div>       
+            <p className='new-date'>24/03/2022</p>
+         </div> 
+
+         </div>
+         
+         <img className='section-pic-desktop' src={sectionGrande} alt=''></img>
+
+         <div className='logo-pic-section'>
+          <img className='logo-pic' src={logoBstadium} alt=''></img>
+         </div>
+            
+       </div> 
+
+
+
 
        <div>
          <div className='container-par'>
