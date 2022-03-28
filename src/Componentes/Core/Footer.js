@@ -10,6 +10,7 @@ var socialMedia = require('../../Assets/Images/socialmedia.png')
 const Footer = () => {
   return (
     <div className='footer'>
+      <div className='footer-header'></div>
       <ul className='footer-first'>
         <li>Sobre nosotros<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
         <li>Legal<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
@@ -17,7 +18,7 @@ const Footer = () => {
       </ul>
 
       <div className='footer-second' >
-        <h4>Canjear tu Sportbox</h4>
+        <h3 className='text-green'>Canjear tu Sportbox</h3>
         <div>
           <h3>Valoraciones</h3>
           <div className='footer-stars'>
