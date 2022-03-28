@@ -182,3 +182,29 @@
     }
    
 }
+
+
+/*DESKTOP*/
+@media screen and (min-width: 860px) {
+    .container-main {
+        margin: auto;
+        width: 96%;
+    }
+    .container-popup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .container-popup-right{
+        display: flex;
+        align-items: center;
+    }
+    .paragraph {
+        margin-bottom: 0;
+    }
+    .logo-bstadium {
+        padding-top: 4px;
+    }
+}

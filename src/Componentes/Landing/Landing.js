@@ -71,7 +71,7 @@ const Landing = () => {
 
 
 
-       <div>
+       <div className='container-par-main'>
          <div className='container-par'>
           <p><b>Confirmación inmediata de entradas y cupón regalo</b></p> 
           <img className='container-icon' src={tickets} alt=''></img>

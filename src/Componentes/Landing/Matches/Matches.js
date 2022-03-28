@@ -6,6 +6,7 @@ import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 var logoBstadium = require('../../../Assets/Icons/bstadium.png');
 var versus = require('../../../Assets/Images/Group70.png');
 var rectangulo = require('../../../Assets/Icons/rectangulo.png');
+var linea = require('../../../Assets/Images/line.png');
 
 var bufanda = require('../../../Assets/Icons/bufanda.png');
 var bebida = require('../../../Assets/Icons/bebida.png');
@@ -82,9 +83,14 @@ function Matches() {
           <div className='container-main'>Partidos</div>
           <div className='container-popup'>
               <img className='logo-bstadium'src={logoBstadium} alt=''></img>
-              <div>
-                 <h3>¡No te lo pierdas!</h3>
-                 <p>Sólo quedan 14 entradas con regalo:</p>
+              <div className='container-popup-right'>
+                <div>
+                  <h3>¡No te lo pierdas!</h3>
+                </div>
+                <div>
+                  <p>Sólo quedan 14 entradas con regalo:</p>
+                </div>
+                 
                  <div className='paragraph'>Bebida 
                  <div className='circulo'>
                    <img className='icon-one' src={bebida} alt=''></img>
@@ -93,7 +99,7 @@ function Matches() {
                  <div className='circulo'>
                    <img className='icon-two' src={bufanda} alt=''></img>
                  </div>
-                 </div>
+               </div>
           </div>
           </div>
 
@@ -1819,6 +1825,9 @@ function Matches() {
            </div>
           
         </div>  
+        <div>
+          <img src={linea} alt=''></img>
+        </div>
       </div>
     
   )

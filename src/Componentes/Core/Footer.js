@@ -8,10 +8,10 @@ var payments = require('../../Assets/Images/payments.png')
 var socialMedia = require('../../Assets/Images/socialmedia.png')
 var wasap = require('../../Assets/Images/wasap.png')
 
+
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='footer-header'></div>
       <ul className='footer-first'>
         <li>Sobre nosotros<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
         <li>Legal<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
