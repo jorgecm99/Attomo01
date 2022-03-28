@@ -7,15 +7,7 @@
     position: relative;
     width: 100%;
 }
-.footer-header {
-        margin: -45px; 
-        height: 40px;
-        background-color: #34FA98;
-        -webkit-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-        transform: rotate(-3deg);
-      
-}
+
 .footer-first {
     padding-left: 0px;
     margin-top: 65px;
@@ -72,5 +64,14 @@ img {
 .wasap-logo {
     width: 60px;
     position: absolute;
-    left: 50px;
+    bottom: 2px;
+    right: 5px;
+}
+.wasap-pic {
+    width: 100%;
+}
+.footer-header{
+    height: 40px;
+    max-height: 40px;
+    background-color: #34FA98;
 }

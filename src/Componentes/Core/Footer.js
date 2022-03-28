@@ -8,7 +8,6 @@ var payments = require('../../Assets/Images/payments.png')
 var socialMedia = require('../../Assets/Images/socialmedia.png')
 var wasap = require('../../Assets/Images/wasap.png')
 
-
 const Footer = () => {
   return (
     <div className='footer'>
@@ -54,8 +53,10 @@ const Footer = () => {
         
 
         <h5>© BSTADIUM</h5>
+        <div className='wasap-logo'>
+        <img  className='wasap-pic' src={wasap} alt=''></img>
+        </div>
         
-        <img  className='wasap-logo' src={wasap} alt=''></img>
         
 
     </div>

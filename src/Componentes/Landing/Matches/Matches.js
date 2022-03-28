@@ -6,7 +6,6 @@ import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 var logoBstadium = require('../../../Assets/Icons/bstadium.png');
 var versus = require('../../../Assets/Images/Group70.png');
 var rectangulo = require('../../../Assets/Icons/rectangulo.png');
-var linea = require('../../../Assets/Images/line.png');
 
 var bufanda = require('../../../Assets/Icons/bufanda.png');
 var bebida = require('../../../Assets/Icons/bebida.png');
@@ -111,7 +110,7 @@ function Matches() {
             <div className='container-one'>
 
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>02/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -129,8 +128,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -140,12 +139,13 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date-desktop'>02/04/2022</p>
           </div>
           </div>
 
 {/* Atletico - Alaves */}
 
-<div className='container'>
+<div className='container container-desktop'>
               <p className='date'>02/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -163,8 +163,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -174,12 +174,13 @@ function Matches() {
                     <img className='bufanda' src={bebida} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>02/04/2022</p>
           </div>
           </div>
 
 {/* Valladolid - Lugo */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
     <p className='date'>02/04/2022</p>
 <div className='container-matches'>
     <div className='container-team'>
@@ -197,8 +198,8 @@ function Matches() {
     </div>        
 </div>
 
-<div className='container-end'>
-    <div className='progress-bar'>
+<div className='container-end end-desktop'>
+    <div className='progress-bar bar-desktop'>
         <img src={rectangulo} alt=''></img>
         <h6 className='progress-bar-text'>% ocupación</h6>
     </div>
@@ -208,13 +209,14 @@ function Matches() {
           <img className='bufanda' src={bufanda} alt=''></img>
         </div>         
     </button>
+    <p className='date'>02/04/2022</p>
 </div>
 </div>
           
 
 
 {/* Celta - Real Madrid */}
-<div className='container'>
+<div className='container container-desktop'>
               <p className='date'>02/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -232,8 +234,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -243,12 +245,13 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>02/04/2022</p>
           </div>
           </div>
 
           {/* Granada - Rayo */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>03/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -266,8 +269,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -277,13 +280,14 @@ function Matches() {
                     <img className='bufanda' src={bebida} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>03/04/2022</p>
           </div>
           </div>
 
 
           {/* Athletic - Elche */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>03/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -301,8 +305,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -312,13 +316,14 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>03/04/2022</p>
           </div>
           </div>
 
 
           {/* Barcelona - Sevilla */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>03/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -336,8 +341,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -347,13 +352,14 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>03/04/2022</p>
           </div>
           </div>
 
 
           {/* Sevilla - Granada */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>08/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -371,8 +377,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -382,13 +388,14 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>08/04/2022</p>
           </div>
           </div>
 
 
           {/* Madrid - Getafe */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>09/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -406,8 +413,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -417,13 +424,14 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>09/04/2022</p>
           </div>
           </div>
 
 
           {/* Osasuna - Alavés */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>10/04/2022</p>
           <div className='container-matches'>
               <div className='container-team'>
@@ -441,8 +449,8 @@ function Matches() {
               </div>        
           </div>
 
-          <div className='container-end'>
-              <div className='progress-bar'>
+          <div className='container-end end-desktop'>
+              <div className='progress-bar bar-desktop'>
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
@@ -452,6 +460,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
+              <p className='date'>10/04/2022</p>
           </div>
           </div>
         </div>:null
@@ -464,7 +473,7 @@ function Matches() {
 
           {/* Levante - Barcelona */}
 
-          <div className='container'>
+          <div className='container container-desktop'>
               <p className='date'>10/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -481,8 +490,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -492,11 +501,12 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>10/04/2022</p>
                 </div>
             </div>
 
             {/* Real Madrid - Chelsea */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>12/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -513,8 +523,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -524,11 +534,12 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>12/04/2022</p>
                 </div>
             </div>
 
             {/* Atletico Madrid - Manchester City */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>13/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -545,8 +556,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -556,12 +567,13 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>13/04/2022</p>
                 </div>
             </div>
 
 
             {/* Barcelona - Eintracht */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>14/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -578,8 +590,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -589,12 +601,13 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>14/04/2022</p>
                 </div>
             </div>
 
 
             {/* Granada - Levante */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>17/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -611,8 +624,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -622,12 +635,13 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>17/04/2022</p>
                 </div>
             </div>
 
 
             {/* Valladolid - Almeria */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>17/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -644,8 +658,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -655,12 +669,13 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>17/04/2022</p>
                 </div>
             </div>
 
 
             {/* Athletic - Celta */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>17/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -677,8 +692,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -688,12 +703,13 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>17/04/2022</p>
                 </div>
             </div>
 
 
             {/* Atletico - Espanyol */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>17/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -710,8 +726,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -721,12 +737,13 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>17/04/2022</p>
                 </div>
             </div>
 
 
             {/* Sevilla - Madrid */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>17/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -743,8 +760,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -754,12 +771,13 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>17/04/2022</p>
                 </div>
             </div>
 
 
             {/* Barcelona - Cadiz */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>17/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -776,8 +794,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -787,6 +805,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>17/04/2022</p>
                 </div>
             </div>
 
@@ -804,7 +823,7 @@ function Matches() {
           <div className='container-three'>
 
               {/* Celta - Getafe */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>20/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -821,8 +840,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -832,12 +851,13 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>20/04/2022</p>
                 </div>
             </div>
 
 
             {/* Atletico - Granada */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>20/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -854,8 +874,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -865,12 +885,13 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>20/04/2022</p>
                 </div>
             </div>
 
 
             {/* Osasuna - Madrid */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>20/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -887,8 +908,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -898,12 +919,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>20/04/2022</p>
+
                 </div>
             </div>
 
 
             {/* Levante - Sevilla */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>20/04/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -920,8 +943,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -931,12 +954,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>20/04/2022</p>
+
                 </div>
             </div>
 
 
             {/* Sevilla - Cadiz */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>01/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -953,8 +978,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -964,12 +989,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>01/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* athletic - atletico */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>01/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -986,8 +1013,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -997,12 +1024,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>01/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* Valladolid - Real sociedad */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>01/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1019,8 +1048,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1030,12 +1059,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>01/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* granada - celta */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>01/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1052,8 +1083,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1063,12 +1094,14 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>01/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* madrid - espanyol */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>01/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1085,8 +1118,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1096,12 +1129,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>01/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* barcelona - mallorca */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>01/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1118,8 +1153,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1129,6 +1164,8 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>01/05/2022</p>
+
                 </div>
             </div>
           
@@ -1143,7 +1180,7 @@ function Matches() {
           <div className='container-three'>
 
               {/* Celta - alaves */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>08/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1160,8 +1197,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1171,12 +1208,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>08/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* Atletico - madrid */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>08/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1193,8 +1232,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1204,12 +1243,14 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>08/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* athletic - valencia */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>08/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1226,8 +1267,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1237,12 +1278,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>08/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* Levante - real sociedad */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>08/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1259,8 +1302,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1270,12 +1313,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>08/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* madrid - levante */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>11/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1292,8 +1337,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1303,12 +1348,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>11/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* granada - athletic */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>11/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1325,8 +1372,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1336,13 +1383,15 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>11/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* osasuna - getafe */}
-            <div className='container'>
-              <p className='date'>01/05/2022</p>
+            <div className='container container-desktop'>
+              <p className='date'>11/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
                   <h6 className='team-one'>osasuna</h6>  
@@ -1358,8 +1407,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1369,12 +1418,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>11/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* sevilla - mallorca */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>11/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1391,8 +1442,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1402,12 +1453,14 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>11/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* barcelona - celta */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>11/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1424,8 +1477,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1435,12 +1488,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>11/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* celta - elche */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>15/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1457,8 +1512,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1468,6 +1523,8 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>15/05/2022</p>
+
                 </div>
             </div>
           
@@ -1482,7 +1539,7 @@ function Matches() {
           <div className='container-three'>
 
               {/* athletic - osasuna */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>15/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1499,8 +1556,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1510,12 +1567,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>15/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* valladolid - ponferradina */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>15/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1532,8 +1591,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1543,12 +1602,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>15/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* atletico - sevilla */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>15/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1565,8 +1626,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1576,12 +1637,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>15/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* Levante - alaves */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>15/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1598,8 +1661,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1609,12 +1672,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>15/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* barcelona - villarreal */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>22/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1631,8 +1696,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1642,12 +1707,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>22/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* madrid - betis */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>22/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1664,8 +1731,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1675,12 +1742,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>22/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* sevilla - athletic */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>22/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1697,8 +1766,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1708,12 +1777,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>22/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* granada - espanyol */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>22/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1730,8 +1801,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1741,12 +1812,14 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>22/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* osasuna - mallorca */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>22/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1763,8 +1836,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1774,12 +1847,14 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>22/05/2022</p>
+
                 </div>
             </div>
 
 
             {/* valladolid - huesca */}
-            <div className='container'>
+            <div className='container container-desktop'>
               <p className='date'>29/05/2022</p>
               <div className='container-matches'>
                 <div className='container-team'>
@@ -1796,8 +1871,8 @@ function Matches() {
                 </div>        
               </div>
 
-                <div className='container-end'>
-                    <div className='progress-bar'>
+                <div className='container-end end-desktop'>
+                    <div className='progress-bar bar-desktop'>
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
@@ -1807,6 +1882,8 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
+                    <p className='date'>29/05/2022</p>
+
                 </div>
             </div>
           
@@ -1825,9 +1902,7 @@ function Matches() {
            </div>
           
         </div>  
-        <div>
-          <img src={linea} alt=''></img>
-        </div>
+        
       </div>
     
   )

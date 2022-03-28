@@ -15,7 +15,10 @@ function Header () {
   return (
     <header className='headerstyle'>
 
-    <div className="dropdown"><FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
+    <div className="dropdown">
+      <div className='dropdown-icon'>
+      <FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
+      </div>
       <div className='dropdown-content'>
         <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Entradas de partidos</Link></li>
         <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Tours originales</Link></li>
@@ -28,21 +31,19 @@ function Header () {
     
     </div>
     
-    <div className='container-desktop'>
+    
     <div className='image-container'>
         <Link to="#" style={{textDecoration: "none"}}>
         <img className='image-logo' src={logoStadium} alt=''></img>
         </Link>    
     </div>
     
-        <div className='cart-style'>
+        <div className='cart-icon'>
             <Link to="/cart"><FontAwesomeIcon icon={faShoppingCart} style={{color: "white"}}/></Link>               
-        </div>
-
-    </div>
-    
-       
+        </div>     
 </header>
+
+
   )
 }
 

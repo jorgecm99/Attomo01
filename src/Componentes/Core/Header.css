@@ -1,35 +1,46 @@
-@media only screen and (min-width: 375px) {
-    header {
+@media only screen and (max-width: 859px) {
+    .headerstyle {
         background-color: black;
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 59px;
-        padding-right: 10px;
-        padding-left: 10px;
         min-width: 375px;
     }
+    
     
     .dropdown {
         position: relative;
         display: inline-block;
+
     }
     .dropdown-content {
         display: none;
         position: absolute;
         background-color: #000000;
-        padding-left: 0;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         margin-top: 0;
         margin-bottom: 0;
+        width: 100vw;
+        
     }
     .dropdown-content li {
         list-style: none;
         color: #ffffff;
+        padding: 10px 20px;
+        
     }
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+    .dropdown-icon{
+        padding-left:20px;
+        font-size: 30px;
+    }
+    .cart-icon {
+        font-size: 30px;
+        padding-right: 20px;
     }
     .toggle-menu {
         display: none;
@@ -43,22 +54,24 @@
 /*DESKTOP*/
 @media screen and (min-width: 860px) {
     header {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         min-width: 860px;
         height: 112px;
     }
     .dropdown{
         display: none;
     }
-    .container-desktop {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+   
     .image-logo{
         min-width: 280px;
+        padding-left: 20px;
+    }
+    .cart-icon {
+        font-size: 30px;
+        padding-right: 20px;
     }
 
 }
