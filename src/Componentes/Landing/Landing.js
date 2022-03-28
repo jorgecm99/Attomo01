@@ -7,6 +7,7 @@ var logoBstadium = require('../../Assets/Icons/bstadium.png');
 var tickets = require('../../Assets/Icons/tickets.png');
 var coins = require('../../Assets/Icons/coins.png');
 var seats = require('../../Assets/Icons/Group69.png');
+var bufblanca = require('../../Assets/Icons/bufblanca.png');
 
 
 
@@ -14,11 +15,28 @@ const Landing = () => {
   return (
     <section>
        <div className='imagen-principal'>
+         <div>
+         <div className='text-one'>
+           <p className='text-mayus white'>entradas de partidos</p>
+         </div>
+
+         <div className='text-two'>
+            <p className='text-mayus-two white'>bufanda <span className='gratis'>gratis</span> con tu entrada</p>
+            <div className='oferta'>
+              <img className='bufblanca' src={bufblanca} alt=''></img>
+              <p className='white'>Oferta disponible sólo hoy</p>
+            </div>       
+            <p className='new-date'>24/03/2022</p>
+         </div> 
+
+         </div>
+         
          <img className='section-pic' src={sectionPic} alt=''></img>
+
          <div className='logo-pic-section'>
           <img className='logo-pic' src={logoBstadium} alt=''></img>
          </div>
-         
+            
        </div> 
 
        <div>

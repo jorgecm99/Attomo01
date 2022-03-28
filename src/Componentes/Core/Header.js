@@ -4,7 +4,9 @@ import './Header.css';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faBars} from '@fortawesome/free-solid-svg-icons';
-var logoStadium = require('../../Assets/Images/image1.png')
+
+var logoStadium = require('../../Assets/Images/image1.png');
+
 
 function Header () {
     
@@ -12,6 +14,7 @@ function Header () {
 
   return (
     <header className='headerstyle'>
+
     <div className="dropdown"><FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
       <div className='dropdown-content'>
         <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Entradas de partidos</Link></li>

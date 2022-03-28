@@ -1,46 +1,99 @@
-.imagen-principal{
-    position: relative;
-}
-.section-pic {
-    width: 100%;
-    position: relative;
-}
-.logo-pic-section {
-    width: 100%;
-}
-.logo-pic {
-    max-width: 65px;
-    position: absolute;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-.container-par {
-    background-color: #33FF99;
-    min-width: 343px;
-    min-height: 80px;
-    color: #000000;
-    margin: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.container-par p {
-    width: 219px;
-    padding-left: 16px;
-}
-.container-icon {
-    width: 41px;
-    height: 41px;
-    padding-right: 27px;
-}
-.container-seat {
-    width: 60px;
-    height: 41px;
-    padding-right: 20px;
+@media only screen and (min-width: 375px){
+    .imagen-principal{
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    .section-pic {
+        width: 100%;
+        
+    }
+    .logo-pic-section {
+        width: 65px;
+    }
+    .logo-pic {
+        width: 10%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .container-par {
+        background-color: #33FF99;
+        min-width: 343px;
+        min-height: 80px;
+        color: #000000;
+        margin: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .container-par p {
+        width: 219px;
+        padding-left: 16px;
+    }
+    .container-icon {
+        width: 41px;
+        height: 41px;
+        padding-right: 27px;
+    }
+    .container-seat {
+        width: 60px;
+        height: 41px;
+        padding-right: 20px;
+    }
+    
+    .text-one {
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    .text-two {
+        position: absolute;
+        display: block;
+        text-align: right;
+        bottom: 0px;
+        right: 16px;
+    }
+    .text-mayus{
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .text-mayus-two{
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: right;
+    }
+    .white {
+        color: #ffffff;
+    }
+    .gratis {
+        color: #000000;
+    }
+    .bufblanca {
+        width: 21px;
+        
+    }
+    .oferta {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        
+    }
+    .new-date{
+        color: #ffffff;
+        margin-top: 3px;
+        font-weight: 700;
+    }
+
+
 }
