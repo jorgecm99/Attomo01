@@ -1,12 +1,22 @@
+.imagen-principal{
+    position: relative;
+}
 .section-pic {
     width: 100%;
     position: relative;
 }
+.logo-pic-section {
+    width: 100%;
+}
 .logo-pic {
-    width: 65px;
+    max-width: 65px;
     position: absolute;
-    left: 42.5%;
-    top: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .container-par {
     background-color: #33FF99;
