@@ -96,6 +96,9 @@
     }
     .text-green {
         color: #34FA98;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 30px 0px;
     }
     .wasap-logo {
         width: 60px;

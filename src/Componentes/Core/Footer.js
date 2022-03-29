@@ -44,6 +44,8 @@ const Footer = () => {
             <li>hola@bstadium.es</li>
           </div>
         </div>
+
+        <p className='text-green'>Canjea tu Sportbox</p>
       
         
 
