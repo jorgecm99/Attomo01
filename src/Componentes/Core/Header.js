@@ -12,6 +12,10 @@ import virtuales from '../../Assets/Icons/virtuales.svg'
 import box from '../../Assets/Icons/box.svg'
 import user from '../../Assets/Icons/user.svg'
 import logoStadium from '../../Assets/Images/logobstadium.svg';
+import spainFlag from '../../Assets/Images/es.svg';
+import gbFlag from '../../Assets/Images/gb.svg';
+import usericon from '../../Assets/Icons/user-icon.png'
+
 
 
 function Header () {
@@ -46,6 +50,15 @@ function Header () {
     
         <div className='cart-icon'>
           <a target="_blank" href="https://bstadium.es/carrito/" rel="noopener noreferrer" style={{color: "white"}}><FontAwesomeIcon icon={faShoppingCart}/></a>               
+        </div>
+
+        <div className='header-icons'>
+          <div className='flag-icons'>
+            <img className='image-icon-flag-one' src={spainFlag} alt=''></img>
+            <img className='image-icon-flag-two' src={gbFlag} alt=''></img>
+          </div>
+            <img className='image-icon' src={usericon} alt=''/>
+            <a target="_blank" href="https://bstadium.es/carrito/" rel="noopener noreferrer" style={{color: "white"}}><FontAwesomeIcon icon={faShoppingCart}/></a>               
         </div>
          
 </header>
