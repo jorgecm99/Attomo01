@@ -1,76 +1,107 @@
-.footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    position: relative;
-    width: 100%;
+@media only screen and (max-width: 859px) {
+    .footer {
+        background-color: #000000;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        width: 100%;
+
+    }
+    
+    .footer-first {
+        padding-left: 0px;
+        margin: 20px;
+    }
+    .footer-stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .footer-second {
+        margin: 25px;
+    }
+    .footer-three {
+        margin: 25px;
+    }
+    .footer li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    
+    h4 {
+        color: #34FA98;
+    }
+    h5 {
+        font-weight: normal;
+        padding: 25px;
+    }
+    .iconlist {
+        display: flex;
+        color: #34FA98;
+        margin-left: 10px;
+    }
+    .img-payment {
+        width: 200px;
+    }
+    img {
+        width: 100px;
+    }
+    
+    .parr-one {
+        margin-top: -8px;
+        padding-bottom: 25px;
+    }
+    .text-green {
+        color: #34FA98;
+    }
+    .wasap-logo {
+        width: 60px;
+        position: absolute;
+        bottom: 2px;
+        right: 5px;
+    }
+    .wasap-pic {
+        width: 100%;
+    }
+    .footer-desktop {
+        display: none;
+    }
+    
 }
 
-.footer-first {
-    padding-left: 0px;
-    margin: 20px;
-}
-.footer-stars {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-.footer-second {
-    margin: 25px;
-}
-.footer-three {
-    margin: 25px;
-}
-.footer li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    font-weight: 700;
-}
-
-h4 {
-    color: #34FA98;
-}
-h5 {
-    font-weight: normal;
-    padding: 25px;
-}
-.iconlist {
-    display: flex;
-    color: #34FA98;
-    margin-left: 10px;
-}
-.img-payment {
-    width: 200px;
-}
-img {
-    width: 100px;
-}
-
-.parr-one {
-    margin-top: -8px;
-    padding-bottom: 25px;
-}
-.text-green {
-    color: #34FA98;
-}
-.wasap-logo {
-    width: 60px;
-    position: absolute;
-    bottom: 2px;
-    right: 5px;
-}
-.wasap-pic {
-    width: 100%;
-}
-.footer-header{
-    height: 40px;
-    max-height: 40px;
-    background-color: #34FA98;
+@media only screen and (min-width: 860px) {
+    .footer-first, .footer-second, .footer-three, .wasap-logo, h5 {
+        display: none;
+    }
+    .footer-desktop {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+    .footer-desktop li {
+        font-size: 16px;
+        list-style: none;
+    }
+    
+    .footer-desktop-one,.footer-desktop-second {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer-desktop-one ul, .footer-desktop-second ul {
+        width: 33%;
+    }
+    .footer-desktop-one ul p, .footer-desktop-second ul p {
+          font-size: 20px;
+    }
+    .text-green {
+        color: #34FA98;
+    }
 }

@@ -243,8 +243,8 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        min-width: 600px;
-        min-height: 76px;
+        min-width: 860px;
+        min-height: 98px;
         border-radius: 5px;
         border: 1px #c4c4c4 solid;
         margin: 8px 8px 0px 8px;
@@ -393,9 +393,9 @@
         width: 10px;
         height: 12px;
     }
-    .progress-bar {
+    /*.progress-bar {
         width: 107px;
-    }
+    }*/
     .progress-bar-text {
         font-weight: 600;
         color: #838383;
