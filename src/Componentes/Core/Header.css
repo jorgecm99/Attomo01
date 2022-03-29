@@ -35,6 +35,9 @@
         padding: 10px 20px;
         
     }
+    .dropdown-content li a {
+        text-decoration: none;
+    }
     .dropdown-content li:hover{
         background-color: gray;
     }
@@ -48,6 +51,7 @@
     .cart-icon {
         font-size: 30px;
         padding-right: 20px;
+        color: #ffffff;
     }
     .toggle-menu {
         display: none;
