@@ -1,0 +1,22 @@
+@media only screen and (max-width: 859px) {
+    .header-desktop {
+        display: none;
+    }
+}
+@media screen and (min-width: 860px) {
+    .header-desktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        min-height: 78px;
+    }
+    .header-desktop li{
+        list-style: none;
+    }
+    .header-desktop li a {
+        font-weight: 700;
+        margin: 10px;
+    }
+    
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import BeforeLanding from './BeforeLanding';
 import './Landing.css'
 import Matches from './Matches/Matches';
 
@@ -15,6 +16,7 @@ var bufblanca = require('../../Assets/Icons/bufblanca.png');
 const Landing = () => {
   return (
     <section>
+      <BeforeLanding/>
        <div className='imagen-principal'>
          <div>
          <div className='text-one'>
