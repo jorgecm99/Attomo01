@@ -11,40 +11,41 @@ var wasap = require('../../Assets/Images/wasap.png')
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='footer-first'>
-        <div className='dropdown-menu'>
-          <p>Sobre nosotros</p>
-          <span><FontAwesomeIcon icon={faAngleDown} /></span>
-        <div className='dropdown-content'>
-          <ul>
+      
+        <div className='dropdown'>
+          <div className='dropdown-menu'>
+            <p>Sobre nosotros</p>
+            <span><FontAwesomeIcon icon={faAngleDown} /></span>
+          </div>
+          <div className='dropdown-content'>    
             <li>Quienes somos</li>
-          </ul>
-        </div>
+          </div>
         </div>
 
-        <div className='dropdown-menu'>
-          <p>Legal</p>
-          <span><FontAwesomeIcon icon={faAngleDown} /></span>
-        <div className='dropdown-content'>
-          <ul>
+        <div className='dropdown'>
+          <div className='dropdown-menu'>
+            <p>Legal</p>
+            <span><FontAwesomeIcon icon={faAngleDown} /></span>
+          </div>
+          <div className='dropdown-content'>
+          
             <li>Política de privacidad</li>
             <li>Política de cookies</li>
             <li>Condiciones de compra</li>
-          </ul>
-        </div>
+          </div>
         </div>
 
-        <div className='dropdown-menu'>
-          <p>Ayuda</p>
-          <span><FontAwesomeIcon icon={faAngleDown} /></span>
-        <div className='dropdown-content'>
-          <ul>
+        <div className='dropdown'>
+          <div className='dropdown-menu'>
+            <p>Ayuda</p>
+            <span><FontAwesomeIcon icon={faAngleDown} /></span>
+          </div>
+          <div className='dropdown-content'>    
             <li>hola@bstadium.es</li>
-          </ul>
+          </div>
         </div>
-        </div>
-        <h3 className='text-green'>Canjear tu Sportbox</h3>
-      </div>
+      
+        
 
       <div className='footer-second' >
         <div>
@@ -130,7 +131,6 @@ const Footer = () => {
         
 
     </div>
-    
   )
 }
 
