@@ -35,6 +35,9 @@ var ponferradina = require('../../../Assets/Images/ponferradina.png');
 var sociedad = require('../../../Assets/Images/sociedad.png');
 var huesca = require('../../../Assets/Images/huesca.png');
 var valencia = require('../../../Assets/Images/valencia.png');
+var city = require('../../../Assets/Images/city.png');
+var chelsea = require('../../../Assets/Images/chelsea.png');
+var frankfurt = require('../../../Assets/Images/frankfurt.png');
 
 
 function Matches() {
@@ -519,7 +522,7 @@ function Matches() {
                 </div>
 
                 <div className='container-team-two'>  
-                  <img className='logo-team' src={barcelona} alt=''></img>
+                  <img className='logo-team' src={chelsea} alt=''></img>
                   <h6 className='team-two'>chelsea</h6> 
                 </div>        
               </div>
@@ -553,7 +556,7 @@ function Matches() {
                 </div>
 
                 <div className='container-team-two'>  
-                  <img className='logo-team' src={barcelona} alt=''></img>
+                  <img className='logo-team' src={city} alt=''></img>
                   <h6 className='team-two'>manchester city</h6> 
                 </div>        
               </div>
@@ -588,7 +591,7 @@ function Matches() {
                 </div>
 
                 <div className='container-team-two'>  
-                  <img className='logo-team' src={barcelona} alt=''></img>
+                  <img className='logo-team' src={frankfurt} alt=''></img>
                   <h6 className='team-two'>eintracht</h6> 
                 </div>        
               </div>
