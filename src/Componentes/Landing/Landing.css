@@ -136,7 +136,7 @@
     }
     .container-par {
         background-color: #33FF99;
-        min-width: 343px;
+        max-width: 343px;
         min-height: 80px;
         color: #000000;
         margin: 16px;

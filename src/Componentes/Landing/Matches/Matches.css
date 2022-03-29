@@ -228,14 +228,38 @@
     .container, .progress-bar, .date{
         display: none;
     }
+    .container-one {
+        position: relative;
+    }
 
     .container-desktop{
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    .container-matches {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        min-width: 600px;
+        min-height: 76px;
+        border-radius: 5px;
+        border: 1px #c4c4c4 solid;
+        margin: 8px 8px 0px 8px;
         position: relative;
     }
+
+    .end-desktop {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        position: relative;
+        min-width: 205px;
+        margin-right: 8px 0px 8px 8px;
+    }
+
     .bar-desktop {
         display: flex;
         justify-content: space-between;
@@ -244,14 +268,7 @@
         margin-top: 5px;
         position: relative;
     }
-    .end-desktop {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: flex-start;
-        position: relative;
-        min-width: 205px;
-        margin-right: 16px;
-    }
+    
     .date-desktop{
         width: 205px;
         color: #000000;
@@ -304,17 +321,6 @@
         right: 0;
         bottom: 0;
         margin: auto;
-    }
-    .container-matches {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        min-width: 580px;
-        min-height: 76px;
-        border-radius: 5px;
-        border: 1px #c4c4c4 solid;
-        margin: 16px;
-        position: relative;
     }
     
     .logo-versus {
