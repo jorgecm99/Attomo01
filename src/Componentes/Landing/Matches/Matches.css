@@ -231,7 +231,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px;
         position: relative;
     }
     .bar-desktop {
@@ -309,6 +308,7 @@
         border-radius: 5px;
         border: 1px #c4c4c4 solid;
         margin: 16px;
+        position: relative;
     }
     
     .logo-versus {

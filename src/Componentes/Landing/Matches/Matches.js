@@ -174,7 +174,7 @@ function Matches() {
                     <img className='bufanda' src={bebida} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>02/04/2022</p>
+              <p className='date-desktop'>02/04/2022</p>
           </div>
           </div>
 
@@ -209,7 +209,7 @@ function Matches() {
           <img className='bufanda' src={bufanda} alt=''></img>
         </div>         
     </button>
-    <p className='date'>02/04/2022</p>
+    <p className='date-desktop'>02/04/2022</p>
 </div>
 </div>
           
@@ -245,7 +245,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>02/04/2022</p>
+              <p className='date-desktop'>02/04/2022</p>
           </div>
           </div>
 
@@ -280,7 +280,7 @@ function Matches() {
                     <img className='bufanda' src={bebida} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>03/04/2022</p>
+              <p className='date-desktop'>03/04/2022</p>
           </div>
           </div>
 
@@ -316,7 +316,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>03/04/2022</p>
+              <p className='date-desktop'>03/04/2022</p>
           </div>
           </div>
 
@@ -352,7 +352,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>03/04/2022</p>
+              <p className='date-desktop'>03/04/2022</p>
           </div>
           </div>
 
@@ -388,7 +388,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>08/04/2022</p>
+              <p className='date-desktop'>08/04/2022</p>
           </div>
           </div>
 
@@ -424,7 +424,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>09/04/2022</p>
+              <p className='date-desktop'>09/04/2022</p>
           </div>
           </div>
 
@@ -460,7 +460,7 @@ function Matches() {
                     <img className='bufanda' src={bufanda} alt=''></img>
                   </div>         
               </button>
-              <p className='date'>10/04/2022</p>
+              <p className='date-desktop'>10/04/2022</p>
           </div>
           </div>
         </div>:null
@@ -501,7 +501,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>10/04/2022</p>
+                    <p className='date-desktop'>10/04/2022</p>
                 </div>
             </div>
 
@@ -534,7 +534,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>12/04/2022</p>
+                    <p className='date-desktop'>12/04/2022</p>
                 </div>
             </div>
 
@@ -567,7 +567,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>13/04/2022</p>
+                    <p className='date-desktop'>13/04/2022</p>
                 </div>
             </div>
 
@@ -601,7 +601,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>14/04/2022</p>
+                    <p className='date-desktop'>14/04/2022</p>
                 </div>
             </div>
 
@@ -635,7 +635,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>17/04/2022</p>
+                    <p className='date-desktop'>17/04/2022</p>
                 </div>
             </div>
 
@@ -669,7 +669,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>17/04/2022</p>
+                    <p className='date-desktop'>17/04/2022</p>
                 </div>
             </div>
 
@@ -703,7 +703,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>17/04/2022</p>
+                    <p className='date-desktop'>17/04/2022</p>
                 </div>
             </div>
 
@@ -737,7 +737,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>17/04/2022</p>
+                    <p className='date-desktop'>17/04/2022</p>
                 </div>
             </div>
 
@@ -771,7 +771,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>17/04/2022</p>
+                    <p className='date-desktop'>17/04/2022</p>
                 </div>
             </div>
 
@@ -805,7 +805,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>17/04/2022</p>
+                    <p className='date-desktop'>17/04/2022</p>
                 </div>
             </div>
 
@@ -851,7 +851,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>20/04/2022</p>
+                    <p className='date-desktop'>20/04/2022</p>
                 </div>
             </div>
 
@@ -885,7 +885,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>20/04/2022</p>
+                    <p className='date-desktop'>20/04/2022</p>
                 </div>
             </div>
 
@@ -919,7 +919,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>20/04/2022</p>
+                    <p className='date-desktop'>20/04/2022</p>
 
                 </div>
             </div>
@@ -954,7 +954,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>20/04/2022</p>
+                    <p className='date-desktop'>20/04/2022</p>
 
                 </div>
             </div>
@@ -989,7 +989,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>01/05/2022</p>
+                    <p className='date-desktop'>01/05/2022</p>
 
                 </div>
             </div>
@@ -1024,7 +1024,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>01/05/2022</p>
+                    <p className='date-desktop'>01/05/2022</p>
 
                 </div>
             </div>
@@ -1059,7 +1059,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>01/05/2022</p>
+                    <p className='date-desktop'>01/05/2022</p>
 
                 </div>
             </div>
@@ -1094,7 +1094,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>01/05/2022</p>
+                    <p className='date-desktop'>01/05/2022</p>
 
                 </div>
             </div>
@@ -1129,7 +1129,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>01/05/2022</p>
+                    <p className='date-desktop'>01/05/2022</p>
 
                 </div>
             </div>
@@ -1164,7 +1164,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>01/05/2022</p>
+                    <p className='date-desktop'>01/05/2022</p>
 
                 </div>
             </div>
@@ -1208,7 +1208,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>08/05/2022</p>
+                    <p className='date-desktop'>08/05/2022</p>
 
                 </div>
             </div>
@@ -1243,7 +1243,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>08/05/2022</p>
+                    <p className='date-desktop'>08/05/2022</p>
 
                 </div>
             </div>
@@ -1278,7 +1278,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>08/05/2022</p>
+                    <p className='date-desktop'>08/05/2022</p>
 
                 </div>
             </div>
@@ -1313,7 +1313,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>08/05/2022</p>
+                    <p className='date-desktop'>08/05/2022</p>
 
                 </div>
             </div>
@@ -1348,7 +1348,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>11/05/2022</p>
+                    <p className='date-desktop'>11/05/2022</p>
 
                 </div>
             </div>
@@ -1383,7 +1383,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>11/05/2022</p>
+                    <p className='date-desktop'>11/05/2022</p>
 
                 </div>
             </div>
@@ -1418,7 +1418,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>11/05/2022</p>
+                    <p className='date-desktop'>11/05/2022</p>
 
                 </div>
             </div>
@@ -1453,7 +1453,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>11/05/2022</p>
+                    <p className='date-desktop'>11/05/2022</p>
 
                 </div>
             </div>
@@ -1488,7 +1488,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>11/05/2022</p>
+                    <p className='date-desktop'>11/05/2022</p>
 
                 </div>
             </div>
@@ -1523,7 +1523,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>15/05/2022</p>
+                    <p className='date-desktop'>15/05/2022</p>
 
                 </div>
             </div>
@@ -1567,7 +1567,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>15/05/2022</p>
+                    <p className='date-desktop'>15/05/2022</p>
 
                 </div>
             </div>
@@ -1602,7 +1602,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>15/05/2022</p>
+                    <p className='date-desktop'>15/05/2022</p>
 
                 </div>
             </div>
@@ -1637,7 +1637,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>15/05/2022</p>
+                    <p className='date-desktop'>15/05/2022</p>
 
                 </div>
             </div>
@@ -1672,7 +1672,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>15/05/2022</p>
+                    <p className='date-desktop'>15/05/2022</p>
 
                 </div>
             </div>
@@ -1707,7 +1707,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>22/05/2022</p>
+                    <p className='date-desktop'>22/05/2022</p>
 
                 </div>
             </div>
@@ -1742,7 +1742,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>22/05/2022</p>
+                    <p className='date-desktop'>22/05/2022</p>
 
                 </div>
             </div>
@@ -1777,7 +1777,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>22/05/2022</p>
+                    <p className='date-desktop'>22/05/2022</p>
 
                 </div>
             </div>
@@ -1812,7 +1812,7 @@ function Matches() {
                             <img className='bufanda' src={bebida} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>22/05/2022</p>
+                    <p className='date-desktop'>22/05/2022</p>
 
                 </div>
             </div>
@@ -1847,7 +1847,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>22/05/2022</p>
+                    <p className='date-desktop'>22/05/2022</p>
 
                 </div>
             </div>
@@ -1882,7 +1882,7 @@ function Matches() {
                             <img className='bufanda' src={bufanda} alt=''></img>
                         </div>         
                     </button>
-                    <p className='date'>29/05/2022</p>
+                    <p className='date-desktop'>29/05/2022</p>
 
                 </div>
             </div>

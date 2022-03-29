@@ -20,13 +20,13 @@ function Header () {
       <FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
       </div>
       <div className='dropdown-content'>
-        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Entradas de partidos</Link></li>
-        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Tours originales</Link></li>
-        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Experiencias día de partido</Link></li>
-        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Salta al campo</Link></li>
-        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Experiencias virtuales</Link></li>
-        <li><Link to="#" style={{textDecoration: "none", color: "white"}}>Sportbox</Link></li>
-        <li><Link to="#" style={{textDecoration: "none", background: "grey"}}>Iniciar sesión</Link></li>
+        <li><Link to="https://bstadium.es/entradas-de-partidos/" style={{textDecoration: "none", color: "white"}}>Entradas de partidos</Link></li>
+        <li><Link to="https://bstadium.es/tours-originales/" style={{textDecoration: "none", color: "white"}}>Tours originales</Link></li>
+        <li><Link to="https://bstadium.es/experiencias-con-entradas/" style={{textDecoration: "none", color: "white"}}>Experiencias día de partido</Link></li>
+        <li><Link to="https://bstadium.es/salta-al-campo/" style={{textDecoration: "none", color: "white"}}>Salta al campo</Link></li>
+        <li><Link to="https://bstadium.es/experiencias-virtuales/" style={{textDecoration: "none", color: "white"}}>Experiencias virtuales</Link></li>
+        <li><Link to="https://bstadium.es/sportbox/" style={{textDecoration: "none", color: "white"}}>Sportbox</Link></li>
+        <li><Link to="https://bstadium.es/mi-cuenta/" style={{textDecoration: "none", color: "white"}}>Iniciar sesión</Link></li>
       </div>
     
     </div>
@@ -39,7 +39,7 @@ function Header () {
     </div>
     
         <div className='cart-icon'>
-            <Link to="/cart"><FontAwesomeIcon icon={faShoppingCart} style={{color: "white"}}/></Link>               
+            <Link to="https://bstadium.es/carrito/"><FontAwesomeIcon icon={faShoppingCart} style={{color: "white"}}/></Link>               
         </div>     
 </header>
 

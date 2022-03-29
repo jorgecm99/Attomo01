@@ -26,10 +26,17 @@
         
     }
     .dropdown-content li {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
         list-style: none;
         color: #ffffff;
+        margin: 5px;
         padding: 10px 20px;
         
+    }
+    .dropdown-content li:hover{
+        background-color: gray;
     }
     .dropdown:hover .dropdown-content {
         display: block;
