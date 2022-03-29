@@ -94,7 +94,7 @@ const Footer = () => {
 
             <ul>
               <p>Síguenos</p>
-              <img src={socialMedia} alt=''></img>
+              <img className='img-payment' src={socialMedia} alt=''></img>
             </ul>
           </div>
         </div>

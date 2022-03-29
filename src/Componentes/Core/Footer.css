@@ -84,6 +84,7 @@
     .footer-desktop {
         background-color: #000000;
         color: #FFFFFF;
+        padding: 50px;
     }
     .footer-desktop li {
         font-size: 16px;
@@ -97,11 +98,15 @@
     }
     .footer-desktop-one ul, .footer-desktop-second ul {
         width: 33%;
+        line-height: 30px;
     }
     .footer-desktop-one ul p, .footer-desktop-second ul p {
           font-size: 20px;
     }
     .text-green {
         color: #34FA98;
+    }
+    .img-payment {
+        width: 50%;
     }
 }
