@@ -293,6 +293,11 @@
         border: none;
         color: #838383;
     }
+    .btn-style:focus {
+        background-color: #5cb85c;
+        border: none;
+        color: #838383;
+    }
     
     .circulo {
         width: 21px;

@@ -58,7 +58,7 @@ function Header () {
             <img className='image-icon-flag-two' src={gbFlag} alt=''></img>
           </div>
             <img className='image-icon' src={usericon} alt=''/>
-            <a target="_blank" href="https://bstadium.es/carrito/" rel="noopener noreferrer" style={{color: "white"}}><FontAwesomeIcon icon={faShoppingCart}/></a>               
+            <a className='image-icon' target="_blank" href="https://bstadium.es/carrito/" rel="noopener noreferrer" style={{color: "white"}}><FontAwesomeIcon icon={faShoppingCart}/></a>               
         </div>
          
 </header>

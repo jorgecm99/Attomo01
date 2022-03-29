@@ -18,7 +18,7 @@ const Footer = () => {
             <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </div>
           <div className='dropdown-content'>    
-            <li>Quienes somos</li>
+            <li><a target="_blank" href="https://bstadium.es/quienes-somos/" rel="noopener noreferrer" style={{color: "white"}}>Quienes somos</a></li>
           </div>
         </div>
 
@@ -29,8 +29,8 @@ const Footer = () => {
           </div>
           <div className='dropdown-content'>
           
-            <li>Política de privacidad</li>
-            <li>Política de cookies</li>
+            <li><a target="_blank" href="https://bstadium.es/politica-de-privacidad/" rel="noopener noreferrer" style={{color: "white"}}>Política de privacidad</a></li>
+            <li><a target="_blank" href="https://bstadium.es/politica-de-cookies/" rel="noopener noreferrer" style={{color: "white"}}>Política de cookies</a></li>
             <li>Condiciones de compra</li>
           </div>
         </div>
@@ -92,18 +92,18 @@ const Footer = () => {
           <div className='footer-desktop-one'>
             <ul>
               <p>Sobre nosotros</p>
-              <li>Quienes somos</li>
-              <li>Blog</li>
+              <li><a target="_blank" href="https://bstadium.es/quienes-somos/" rel="noopener noreferrer" style={{color: "white"}}>Quienes somos</a></li>
+              <li><a target="_blank" href="https://bstadium.es/blog/" rel="noopener noreferrer" style={{color: "white"}}>Blog</a></li>
               <li>Centro de ayuda</li>
             </ul>
             <ul>
-              <p>Legal</p>
-              <li>Política de privacidad</li>
-              <li>Política de cookies</li>
+              <p><a target="_blank" href="https://bstadium.es/aviso-legal-y-terminos-de-uso/" rel="noopener noreferrer" style={{color: "white"}}>Legal</a></p>
+              <li><a target="_blank" href="https://bstadium.es/politica-de-privacidad/" rel="noopener noreferrer" style={{color: "white"}}>Política de privacidad</a></li>
+              <li><a target="_blank" href="https://bstadium.es/politica-de-cookies/" rel="noopener noreferrer" style={{color: "white"}}>Política de cookies</a></li>
               <li>Condiciones de compra</li>
             </ul>
             <ul>
-              <p className='text-green'>Canjea tu sportbox</p>
+              <p className='text-green-footer'>Canjea tu sportbox</p>
               <li>Ayuda</li>
               <li>+4 618 45 36 90</li>
               <li>hola@bstadium.es</li>

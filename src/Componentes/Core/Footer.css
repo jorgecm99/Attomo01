@@ -116,7 +116,7 @@
 }
 
 @media only screen and (min-width: 860px) {
-    .footer-first, .footer-second, .footer-three, .wasap-logo, h5 {
+    .footer-first, .footer-second, .footer-three,.text-green, .wasap-logo, h5 {
         display: none;
     }
     .footer-desktop {
@@ -141,10 +141,14 @@
     .footer-desktop-one ul p, .footer-desktop-second ul p {
           font-size: 20px;
     }
-    .text-green {
+    .text-green-footer {
         color: #34FA98;
     }
     .img-payment {
         width: 50%;
     }
+    .footer-desktop-one ul p a {
+        text-decoration: none;
+    }
+    
 }
