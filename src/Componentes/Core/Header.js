@@ -20,13 +20,13 @@ function Header () {
       <FontAwesomeIcon icon={faBars} style={{color: "white"}}/>
       </div>
       <div className='dropdown-content'>
-        <li><Link to="https://bstadium.es/entradas-de-partidos/" style={{textDecoration: "none", color: "white"}}>Entradas de partidos</Link></li>
-        <li><Link to="https://bstadium.es/tours-originales/" style={{textDecoration: "none", color: "white"}}>Tours originales</Link></li>
-        <li><Link to="https://bstadium.es/experiencias-con-entradas/" style={{textDecoration: "none", color: "white"}}>Experiencias día de partido</Link></li>
-        <li><Link to="https://bstadium.es/salta-al-campo/" style={{textDecoration: "none", color: "white"}}>Salta al campo</Link></li>
-        <li><Link to="https://bstadium.es/experiencias-virtuales/" style={{textDecoration: "none", color: "white"}}>Experiencias virtuales</Link></li>
-        <li><Link to="https://bstadium.es/sportbox/" style={{textDecoration: "none", color: "white"}}>Sportbox</Link></li>
-        <li><Link to="https://bstadium.es/mi-cuenta/" style={{textDecoration: "none", color: "white"}}>Iniciar sesión</Link></li>
+        <li><a target="_blank" href="https://bstadium.es/entradas-de-partidos/" rel="noopener noreferrer">Entradas de partidos</a></li>
+        <li><a target="_blank" href="https://bstadium.es/tours-originales/" rel="noopener noreferrer">Tours originales</a></li>
+        <li><a target="_blank" href="https://bstadium.es/experiencias-con-entradas/" rel="noopener noreferrer">Experiencias día de partido"</a></li>
+        <li><a target="_blank" href="https://bstadium.es/salta-al-campo/" rel="noopener noreferrer">Salta al campo</a></li>
+        <li><a target="_blank" href="https://bstadium.es/experiencias-virtuales/" rel="noopener noreferrer">Experiencias virtuales</a></li>
+        <li><a target="_blank" href="https://bstadium.es/sportbox/" rel="noopener noreferrer">Sportbox</a></li>
+        <li><a target="_blank" href="https://bstadium.es/mi-cuenta/" rel="noopener noreferrer">Iniciar sesión</a></li>
       </div>
     
     </div>
@@ -39,7 +39,7 @@ function Header () {
     </div>
     
         <div className='cart-icon'>
-            <Link to="https://bstadium.es/carrito/"><FontAwesomeIcon icon={faShoppingCart} style={{color: "white"}}/></Link>               
+        <a target="_blank" href="https://bstadium.es/carrito/" rel="noopener noreferrer"><FontAwesomeIcon icon={faShoppingCart}/></a>               
         </div>     
 </header>
 

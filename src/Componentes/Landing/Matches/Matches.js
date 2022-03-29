@@ -73,10 +73,6 @@ function Matches() {
     }
 
 
-    const handleClick = () => {
-        window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-levante-villarreal/");
-      };
-
   return (
       <div>
           <div className='container-main'>Partidos</div>
@@ -133,10 +129,11 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button onClick={() => window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-levante-villarreal/")}
+                  className='btn-ticket'>
                   <div className='btn-display'>
-                    <h6 className='btn-text'>Comprar entrada + Regalo</h6>
-                    <img className='bufanda' src={bufanda} alt=''></img>
+                  <h6 className='btn-text'>Comprar entrada + Regalo</h6>
+                  <img className='bufanda' src={bufanda} alt=''></img>           
                   </div>         
               </button>
               <p className='date-desktop'>02/04/2022</p>
@@ -168,7 +165,7 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bebida} alt=''></img>
@@ -203,7 +200,7 @@ function Matches() {
         <img src={rectangulo} alt=''></img>
         <h6 className='progress-bar-text'>% ocupación</h6>
     </div>
-    <button onClick={handleClick} className='btn-ticket'>
+    <button className='btn-ticket'>
         <div className='btn-display'>
           <h6 className='btn-text'>Comprar entrada + Regalo</h6>
           <img className='bufanda' src={bufanda} alt=''></img>
@@ -239,7 +236,8 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button onClick={() => window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-rc-celta-real-madrid/")}
+                 className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bufanda} alt=''></img>
@@ -274,7 +272,7 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bebida} alt=''></img>
@@ -310,7 +308,7 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bufanda} alt=''></img>
@@ -346,7 +344,8 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-partido-fc-barcelona-contra-sevilla-fc/")}
+              className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bufanda} alt=''></img>
@@ -382,7 +381,7 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bufanda} alt=''></img>
@@ -418,7 +417,8 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-vip-real-madrid-getafe/")}
+              className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bufanda} alt=''></img>
@@ -454,7 +454,7 @@ function Matches() {
                   <img src={rectangulo} alt=''></img>
                   <h6 className='progress-bar-text'>% ocupación</h6>
               </div>
-              <button onClick={handleClick} className='btn-ticket'>
+              <button className='btn-ticket'>
                   <div className='btn-display'>
                     <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                     <img className='bufanda' src={bufanda} alt=''></img>
@@ -495,7 +495,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-levante-barcelona/")} 
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -528,7 +529,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-vip-real-madrid-vs-chelsea/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -561,7 +563,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/pack-atletico-de-madrid-manchester-city/")}  
+                     className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -595,7 +598,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-partido-fc-barcelona-vs-eintracht-frankfurt/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -629,7 +633,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -663,7 +667,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -697,7 +701,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -731,7 +735,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -765,7 +769,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -799,7 +803,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-partido-fc-barcelona-contra-cadiz-cf/")}  
+                     className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -845,7 +850,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -879,7 +884,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button  className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -913,7 +918,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -948,7 +953,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-levante-sevilla-fc/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -983,7 +989,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1018,7 +1024,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1053,7 +1059,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1088,7 +1094,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -1123,7 +1129,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-vip-real-madrid-espanyol/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1158,7 +1165,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-partido-fc-barcelona-contra-rcd-mallorca/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1202,7 +1210,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1237,7 +1245,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -1272,7 +1280,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1307,7 +1315,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-levante-real-sociedad/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1342,7 +1351,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-vip-real-madrid-levante/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1377,7 +1387,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1412,7 +1422,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1447,7 +1457,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -1482,7 +1492,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-partido-fc-barcelona-rc-celta/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1517,7 +1528,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1561,7 +1572,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1596,7 +1607,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1631,7 +1642,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1666,7 +1677,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-de-partidos/entradas-partido-levante-alaves/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1701,7 +1713,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-partido-fc-barcelona-villarreal-cf/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1736,7 +1749,8 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button onClick={() => window.open("https://bstadium.es/entradas-partidos/entradas-vip-real-madrid-real-betis-balompie/")}  
+                    className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1771,7 +1785,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1806,7 +1820,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bebida} alt=''></img>
@@ -1841,7 +1855,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
@@ -1876,7 +1890,7 @@ function Matches() {
                        <img src={rectangulo} alt=''></img>
                        <h6 className='progress-bar-text'>% ocupación</h6>
                     </div>
-                    <button onClick={handleClick} className='btn-ticket'>
+                    <button className='btn-ticket'>
                         <div className='btn-display'>
                             <h6 className='btn-text'>Comprar entrada + Regalo</h6>
                             <img className='bufanda' src={bufanda} alt=''></img>
