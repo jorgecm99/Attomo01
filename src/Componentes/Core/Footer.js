@@ -11,12 +11,40 @@ var wasap = require('../../Assets/Images/wasap.png')
 const Footer = () => {
   return (
     <div className='footer'>
-      <ul className='footer-first'>
-        <li>Sobre nosotros<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
-        <li>Legal<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
-        <li>Ayuda<span><FontAwesomeIcon icon={faAngleDown} /></span></li>
+      <div className='footer-first'>
+        <div className='dropdown-menu'>
+          <p>Sobre nosotros</p>
+          <span><FontAwesomeIcon icon={faAngleDown} /></span>
+        <div className='dropdown-content'>
+          <ul>
+            <li>Quienes somos</li>
+          </ul>
+        </div>
+        </div>
+
+        <div className='dropdown-menu'>
+          <p>Legal</p>
+          <span><FontAwesomeIcon icon={faAngleDown} /></span>
+        <div className='dropdown-content'>
+          <ul>
+            <li>Política de privacidad</li>
+            <li>Política de cookies</li>
+            <li>Condiciones de compra</li>
+          </ul>
+        </div>
+        </div>
+
+        <div className='dropdown-menu'>
+          <p>Ayuda</p>
+          <span><FontAwesomeIcon icon={faAngleDown} /></span>
+        <div className='dropdown-content'>
+          <ul>
+            <li>hola@bstadium.es</li>
+          </ul>
+        </div>
+        </div>
         <h3 className='text-green'>Canjear tu Sportbox</h3>
-      </ul>
+      </div>
 
       <div className='footer-second' >
         <div>
