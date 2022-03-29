@@ -11,8 +11,7 @@ import balon from '../../Assets/Icons/balon.svg'
 import virtuales from '../../Assets/Icons/virtuales.svg'
 import box from '../../Assets/Icons/box.svg'
 import user from '../../Assets/Icons/user.svg'
-
-var logoStadium = require('../../Assets/Images/image1.png');
+import logoStadium from '../../Assets/Images/logobstadium.svg';
 
 
 function Header () {
