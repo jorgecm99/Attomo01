@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import './Matches.css';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
@@ -42,43 +42,53 @@ var frankfurt = require('../../../Assets/Images/frankfurt.png');
 
 function Matches() {
     const [page, setPage] = useState(1);
+    const myRef = useRef(); 
+
 
     const pageOne = () => {
-        setPage(1)
+        setPage(1);
+        myRef.current.scrollIntoView({behavior: "smooth"})
+        
     }
 
     const pageTwo = () => {
-        setPage(2)
+        setPage(2);
+        myRef.current.scrollIntoView({behavior: "smooth"})
     }
 
     const pageThree = () => {
-        setPage(3)
+        setPage(3);
+        myRef.current.scrollIntoView({behavior: "smooth"})
     }
 
     const pageFour = () => {
-        setPage(4)
+        setPage(4);
+        myRef.current.scrollIntoView({behavior: "smooth"})
     }
 
     const pageFive = () => {
-        setPage(5)
+        setPage(5);
+        myRef.current.scrollIntoView({behavior: "smooth"})
     }
 
     const next = () => {
         if(page<5){
             setPage(page + 1)
         }
+        myRef.current.scrollIntoView({behavior: "smooth"})
     }
 
     const prev = () => {
         if(page>1){
             setPage(page - 1)
         }
+        myRef.current.scrollIntoView({behavior: "smooth"})
     }
 
 
   return (
       <div>
-          <div className='container-main'>Partidos</div>
+          <div ref={myRef} className='container-main'>Partidos</div>
           <div className='container-popup'>
               <img className='logo-bstadium'src={logoBstadium} alt=''></img>
               <div className='container-popup-right'>
