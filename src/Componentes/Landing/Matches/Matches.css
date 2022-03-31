@@ -211,10 +211,12 @@
     h3 {
         font-size: 18px;
     }
-    .logo-bstadium {
+    .logo-bstadium{
+        display: none;
+    }
+    .logo-bstadium-desktop {
         width: 50px;
         padding-top: 15px;
-        display: none;
     }
     .container-popup {
         display: flex;
@@ -423,7 +425,7 @@
     }
     .containter-popup-desktop div{
         margin: 20px;
-        font-size: 20px;
+        font-size: 22px;
     }
     .containter-popup-desktop div:nth-child(2){
         font-weight: bold;

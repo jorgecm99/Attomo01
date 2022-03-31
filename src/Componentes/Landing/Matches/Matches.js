@@ -112,7 +112,7 @@ function Matches() {
           </div>
 
           <div className='containter-popup-desktop'>
-            <div className='popup-desktop-logo'><img className='logo-bstadium'src={logoBstadium} alt=''></img></div>
+            <div className='popup-desktop-logo'><img className='logo-bstadium-desktop'src={logoBstadium} alt=''></img></div>
             <div>
               <p>¡No te lo pierdas!</p>
             </div>
