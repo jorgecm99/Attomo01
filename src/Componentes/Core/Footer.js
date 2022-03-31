@@ -27,8 +27,7 @@ const Footer = () => {
             <p>Legal</p>
             <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </div>
-          <div className='dropdown-content'>
-          
+          <div className='dropdown-content'>  
             <li><a target="_blank" href="https://bstadium.es/politica-de-privacidad/" rel="noopener noreferrer" style={{color: "white"}}>Política de privacidad</a></li>
             <li><a target="_blank" href="https://bstadium.es/politica-de-cookies/" rel="noopener noreferrer" style={{color: "white"}}>Política de cookies</a></li>
             <li>Condiciones de compra</li>

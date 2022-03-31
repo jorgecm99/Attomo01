@@ -34,14 +34,18 @@
         
     }
     .dropdown-content li {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: lighter;
         list-style: none;
-        color: grey;
+        color: #FFFFFF;
         padding: 5px 16px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+    }
+    .dropdown-content li a {
+        text-decoration: none;
+        margin-left: 0px;
     }
     
     .footer-first {
