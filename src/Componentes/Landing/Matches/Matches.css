@@ -145,7 +145,11 @@
         border: none;
         color: #838383;
     }
-    
+    .btn-style:focus {
+        background-color: #33FF99;
+        border: none;
+        color: #838383;
+    }
     .circulo {
         width: 21px;
         height: 21px;
@@ -294,7 +298,7 @@
         color: #838383;
     }
     .btn-style:focus {
-        background-color: #5cb85c;
+        background-color: #33FF99;
         border: none;
         color: #838383;
     }

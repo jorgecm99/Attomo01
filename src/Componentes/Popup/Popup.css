@@ -9,6 +9,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        --webkit-transition: 1s linear;
+        transition: 1s linear;
     }
     
     .popup-inner {
