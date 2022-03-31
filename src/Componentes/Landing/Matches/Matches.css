@@ -184,7 +184,7 @@
         align-items: center;
         margin-bottom: 30px;
     }
-    .date-desktop {
+    .date-desktop, .containter-popup-desktop {
         display: none;
     }
     a{
@@ -214,6 +214,7 @@
     .logo-bstadium {
         width: 50px;
         padding-top: 15px;
+        display: none;
     }
     .container-popup {
         display: flex;
@@ -222,6 +223,9 @@
         min-width: 343px;
         margin: 16px;
     
+    }
+    .container-popup-right{
+        display: none;
     }
     .paragraph {
         margin-bottom: 0;
@@ -311,6 +315,7 @@
         border-radius: 50%;
         background: #5cb85c;
         position: relative;
+        margin: 20px;
     }
     
     .icon-one{
@@ -410,6 +415,23 @@
         color: #838383;
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .containter-popup-desktop{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .containter-popup-desktop div{
+        margin: 20px;
+        font-size: 20px;
+    }
+    .containter-popup-desktop div:nth-child(2){
+        font-weight: bold;
+    }
+    .paragraph-desktop{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
     
 }

@@ -111,6 +111,27 @@ function Matches() {
           </div>
           </div>
 
+          <div className='containter-popup-desktop'>
+            <div className='popup-desktop-logo'><img className='logo-bstadium'src={logoBstadium} alt=''></img></div>
+            <div>
+              <p>¡No te lo pierdas!</p>
+            </div>
+            <div>
+              <p>Sólo quedan 14 entradas con regalo:</p>
+            </div>
+
+            <div className='paragraph-desktop'>Bebida 
+              <div className='circulo'>
+                <img className='icon-one' src={bebida} alt=''></img>
+              </div>
+                 o Bufanda
+              <div className='circulo'>
+                  <img className='icon-two' src={bufanda} alt=''></img>
+              </div>
+            </div>
+
+          </div>
+
 
 {/* Start of matches container */}
         <div className='slider'>
