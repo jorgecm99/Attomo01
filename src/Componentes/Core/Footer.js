@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Footer.css'
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
@@ -9,40 +9,69 @@ var socialMedia = require('../../Assets/Images/socialmedia.png')
 var wasap = require('../../Assets/Images/wasap.png')
 
 const Footer = () => {
+  const [show, setShow] = useState(false);
+  const [showTwo, setShowTwo] = useState(false);
+  const [showThree, setShowThree] = useState(false);
+  const [showFour, setShowFour] = useState(false);
+  
+
   return (
     <div className='footer'>
       
         <div className='dropdown'>
-          <div className='dropdown-menu'>
+          <div className='dropdown-menu'onClick={()=>setShow(!show)}>
             <p>Sobre nosotros</p>
             <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </div>
-          <div className='dropdown-content'>    
+          {
+            show ? <div className='dropdown-bbb'>    
             <li><a target="_blank" href="https://bstadium.es/quienes-somos/" rel="noopener noreferrer" style={{color: "white"}}>Quienes somos</a></li>
-          </div>
+           </div> : null
+          }
+           
+          
         </div>
 
         <div className='dropdown'>
-          <div className='dropdown-menu'>
+          <div className='dropdown-menu' onClick={()=>setShowTwo(!showTwo)}>
             <p>Legal</p>
             <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </div>
-          <div className='dropdown-content'>  
+          {
+            showTwo ? <div className='dropdown-bbb'>  
             <li><a target="_blank" href="https://bstadium.es/politica-de-privacidad/" rel="noopener noreferrer" style={{color: "white"}}>Política de privacidad</a></li>
             <li><a target="_blank" href="https://bstadium.es/politica-de-cookies/" rel="noopener noreferrer" style={{color: "white"}}>Política de cookies</a></li>
             <li>Condiciones de compra</li>
-          </div>
+          </div> : null
+          }
+          
         </div>
 
         <div className='dropdown'>
-          <div className='dropdown-menu'>
+          <div className='dropdown-menu'  onClick={()=>setShowThree(!showThree)}>
             <p>Ayuda</p>
             <span><FontAwesomeIcon icon={faAngleDown} /></span>
           </div>
-          <div className='dropdown-content'>    
+          {
+            showThree ? <div className='dropdown-bbb'>    
             <li>hola@bstadium.es</li>
-          </div>
+          </div> : null
+          }        
         </div>
+
+        <div className='dropdown'>
+          <div className='dropdown-menu' onClick={()=>setShowFour(!showFour)}>
+            <p>Ayuda</p>
+            <span><FontAwesomeIcon icon={faAngleDown} /></span>
+          </div>
+          {
+            showFour ? <div className='dropdown-bbb'>    
+            <li>hola@bstadium.es</li>
+          </div> : null
+          }        
+        </div>
+
+        
 
         <p className='text-green'>Canjea tu Sportbox</p>
       
