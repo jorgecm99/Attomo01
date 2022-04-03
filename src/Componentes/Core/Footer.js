@@ -59,17 +59,7 @@ const Footer = () => {
           }        
         </div>
 
-        <div className='dropdown'>
-          <div className='dropdown-menu' onClick={()=>setShowFour(!showFour)}>
-            <p>Ayuda</p>
-            <span><FontAwesomeIcon icon={faAngleDown} /></span>
-          </div>
-          {
-            showFour ? <div className='dropdown-bbb'>    
-            <li>hola@bstadium.es</li>
-          </div> : null
-          }        
-        </div>
+        
 
         
 
