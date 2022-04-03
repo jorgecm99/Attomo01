@@ -12,7 +12,6 @@ const Footer = () => {
   const [show, setShow] = useState(false);
   const [showTwo, setShowTwo] = useState(false);
   const [showThree, setShowThree] = useState(false);
-  const [showFour, setShowFour] = useState(false);
   
 
   return (
